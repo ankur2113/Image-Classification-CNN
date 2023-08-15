@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html >
+</head>
+<form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+
+<div class="login card">
+  <pre>
+  <input class="btn btn-primary btn-block btn-large" type="file" name="file" accept="image/*" multiple>
+  <input type="submit" value="Check Quality!" class="btn btn-primary btn-block btn-large">
+  </pre>
+</div>
+</form>
+
+</body>
+</html>
